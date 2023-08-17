@@ -80,6 +80,12 @@ a:active {
 .web {
     color: var(--primary-brand)
 }
+.navitem {
+    color: var(--dark);
+}
+.contact-details {
+    color: var(--subtle-text);
+}
 .hero {
     background-color: var(--dark);
 }
@@ -99,18 +105,16 @@ a:active {
 .ourteam {
     background-color: var(--light);
 }
+.ourteam h2 {
+    text-align: center;
+}
 .ourteam h3 {
     color: var(--dark);
 }
 .ourteam p {
     color: var(--subtle-text);
 }
-.navitem {
-    color: var(--dark);
-}
-.contact-details {
-    color: var(--subtle-text);
-}
+
 .demoimg h3 {
     color: var(--dark);
 }
