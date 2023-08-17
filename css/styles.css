@@ -1,28 +1,128 @@
-body{
-    font-family: 'roboto' , sans-serif;
-}
-.web{
-    font-family: 'roboto' , sans-serif;
-    color:blueviolet;
-     
-}
-.mainbar{
-    background-color: brown;
-}
-.hero .sort{
-    background-color:aquamarine;
-}
-.whatwedo{
-    background-color:pink;
-}
-.minisections{
-    background-color: bisque;
-}
-.ourteam{
-    background-color: blanchedalmond;
-}
+:root {
+    --primary-brand:#4D5AE5;
+    --pressed-state:#404BBF;
+    --dark:#2E2F42;
+    --success:#31D0AA;
+    --text:#434455;
+    --subtle-text:#8E8F99;
+    --accent:#E7E9FC;
+    --light:#F4F4FD;
+    --modal-overlay:#2E2F4266;
+    --hero-background:#2E2F42B2;
+    --white-background:#FFFFFF;
+    --modal-background:#FCFCFC;
 
-
-.nav-item > a:hover{
-    color:orange;
+}
+body {
+    font-family: 'roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    letter-spacing: 0.07rem;
+}
+h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.045rem;
+    text-transform: capitalize;
+}
+h3 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.0.25rem;
+}
+body {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+}
+ul {
+    list-style-type: none;
+}
+button {
+    background-color: var(--primary-brand,#4d5ae5);
+    color: var(--white-background,ffffff);
+    font-size: .875rem;
+    line-height: 140%;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: black;
+}
+button:hover {
+    background-color: var(--pressed-state);
+}
+button:focus {
+    background-color: var(--pressed-state);
+}
+a {
+    color: var(--dark,#2E2F42);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: .875rem;
+    line-height: 140%;
+    cursor: pointer;
+}
+a:hover {
+    color: var(--pressed-state);
+}
+a:focus {
+    color: var(--pressed-state);
+}
+a:active {
+    color: var(--pressed-state);
+    text-decoration: underline;
+}
+.web {
+    color: var(--primary-brand)
+}
+.hero {
+    background-color: var(--dark);
+}
+.hero h1 {
+    color: var(--light);
+    text-align: center;
+}
+.whatwedo h2 {
+    text-align: center;
+}
+.whatwedo h3 {
+    color: var(--dark);
+}
+.whatwedo p {
+    color: var(--subtle-text);
+}
+.ourteam {
+    background-color: var(--light);
+}
+.ourteam h3 {
+    color: var(--dark);
+}
+.ourteam p {
+    color: var(--subtle-text);
+}
+.navitem {
+    color: var(--dark);
+}
+.contact-details {
+    color: var(--subtle-text);
+}
+.demoimg h3 {
+    color: var(--dark);
+}
+.demoimg h4 {
+    color: var(--subtle-text);
+}
+footer {
+    background-color: var(--dark);
+}
+footer p {
+    color: var(--subtle-text)
+}
+footer a {
+    color: var(--white-background)
 }
