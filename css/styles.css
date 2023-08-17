@@ -96,10 +96,15 @@ a:active {
 .whatwedo h2 {
     text-align: center;
 }
-.whatwedo h3 {
+.pictures li {
+    display: inline;
+}
+.minisections ul {
+}
+.minisections h3 {
     color: var(--dark);
 }
-.whatwedo p {
+.minisections p {
     color: var(--subtle-text);
 }
 .ourteam {
@@ -108,13 +113,16 @@ a:active {
 .ourteam h2 {
     text-align: center;
 }
+.ourteam li {
+    background-color: var(--white-background);
+    display: inline-block;
+}
 .ourteam h3 {
     color: var(--dark);
 }
 .ourteam p {
     color: var(--subtle-text);
 }
-
 .demoimg h3 {
     color: var(--dark);
 }
