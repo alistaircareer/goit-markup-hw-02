@@ -1,5 +1,22 @@
-.h1{
+.h3{
     font-family: 'Roboto' , sans-serif;
     font-size: 100;
     color: solid red;
+}
+.web{
+    font-family: 'roboto' , sans-serif;
+    color:blueviolet;
+     
+}
+a:link,{
+    color:aqua;
+}
+a:visited{
+    color:aqua;
+}
+a:hover{
+    color:orange;
+}
+.active{
+    color:orange;
 }
