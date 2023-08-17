@@ -99,8 +99,6 @@ a:active {
 .pictures li {
     display: inline;
 }
-.minisections ul {
-}
 .minisections h3 {
     color: var(--dark);
 }
