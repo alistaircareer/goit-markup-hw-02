@@ -201,7 +201,7 @@ section {
     list-style-type: none;
 }
 .filter-list-item{
-    display: felx;
+    display: flex;
 }
 .filter-list-item button{
     background-color: var(--cloud);
