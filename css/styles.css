@@ -203,7 +203,7 @@ section {
     list-style-type: none;
 }
 .filter-list-item{
-    display: inline;
+    display: felx;
 }
 .filter-list-item button{
     background-color: var(--cornflower);
@@ -226,19 +226,16 @@ section {
     background-color: var(--cornflower);
 }
 .demo-list {
+    display: flex;
     text-transform: capitalize;
-    list-style-type: none;
+    list-style: none;
 
 }
 .demo-list-item {
-    display: flex;
     width: 360px;
     height: 420px;
     padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    flex-shrink: 0;
+    margin: 0 10px;
 }
 footer {
     background-color: var(--navyblue);
