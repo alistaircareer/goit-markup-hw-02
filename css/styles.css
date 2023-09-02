@@ -21,6 +21,9 @@
 body {
     font-family: 'roboto',sans-serif;
 }
+address {
+    font-style: normal
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -150,7 +153,7 @@ section {
     height: 2592px;
 }
 .services-title {
-    color: var(--NAVY-BLUE);
+    color: var(--navyblue);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -168,7 +171,6 @@ section {
     position: relative;
     flex: 0px;
     margin: 0px
-    cursor: pointer;
 }
 .section-ourteam {
     background-color: var(--cloud);
@@ -202,7 +204,7 @@ section {
     display: felx;
 }
 .filter-list-item button{
-    background-color: var(--cornflower);
+    background-color: var(--cloud);
     color: var(--iris);
     font-size: 16px;
     line-height: 24px;
@@ -216,7 +218,7 @@ section {
 .filter-list-item button:hover, .filter-list-item .hero-button:focus {
     background-color: var(--ocean);
     color: var(--white);
-    border: 1px solid var(var(--ocean));
+    border: 1px solid var(--ocean);
 }
 .demo {
     background-color: var(--cornflower);
