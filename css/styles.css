@@ -74,7 +74,6 @@ section {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    
 }
 .nav-item-link:hover, .nav-item-link:focus, .nav-item-link:active, .address-item-link:hover, .address-item-link:focus, .address-item-link:active {
     color: var(--ocean);
@@ -89,7 +88,6 @@ section {
 .address-item-link {
     color: var(--slate);
     font-size: 16px;
-    font-style: normal;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
