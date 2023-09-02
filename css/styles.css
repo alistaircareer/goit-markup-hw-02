@@ -227,6 +227,9 @@ section {
 }
 .demo-list {
     display: flex;
+    flex-wrap: wrap;
+    margin: -1rem -1rem;
+    padding-bottom: 3rem;
     text-transform: capitalize;
     list-style: none;
 
@@ -236,6 +239,8 @@ section {
     height: 420px;
     padding-bottom: 0px;
     margin: 0 10px;
+    position: relative;
+    flex: 1 0 22rem;
 }
 footer {
     background-color: var(--navyblue);
