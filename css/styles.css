@@ -126,24 +126,11 @@ section {
     width: 1440px;
     height: 2592px;
 }
-.feature-title {
-    color: var(--navyblue,);
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px; /* 111.111% */
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
 .feature-list {
-    display:inline-flex;
+    display: inline-block;
 }
 .feature-list-item {
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    display: block;
 }
 .feature-list-item-title, .ourteam-list-item-title, .demo-list-item-title {
     color: var(--navyblue);
@@ -172,12 +159,16 @@ section {
     text-transform: capitalize;
 }
 .services-list-pictures {
-    display: inline;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding-bottom: 0px;
 }
 .services-list-pictures-item {
-    display: inline-flex;
+    position: relative;
+    flex: 0px;
+    margin: 0px
+    cursor: pointer;
 }
 .section-ourteam {
     background-color: var(--cloud);
@@ -192,11 +183,16 @@ section {
     text-transform: capitalize;
 }
 .ourteam-list {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding-bottom: 3px;
 }
 .ourteam-list-item{
     background-color: var(--white);
-    display: inline-block;
+    position: relative;
+    flex: 0px;
+    margin: 10;
 }
 .filter-list {
     text-transform: capitalize;
