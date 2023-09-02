@@ -21,7 +21,6 @@
 body {
     font-family: 'roboto',sans-serif;
     font-style: normal;
-    font-weight: 500;
 }
 ul {
     list-style-type: none;
@@ -51,7 +50,11 @@ a:focus {
 a:active {
     color: var(--ocean);
 }
-.section {
+.container {
+    width: 1154px;
+    margin: 0;
+}
+section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -80,6 +83,12 @@ a:active {
 }
 .nav-item {
     text-transform: capitalize;
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
     
 }
 .nav-item-link {
@@ -98,6 +107,9 @@ a:active {
 }
 .section-hero{
     background-color: var(--navyblue);
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
 }
 .hero-title {
     color: var(--white);
@@ -123,6 +135,10 @@ a:active {
 .hero-button:focus {
     background-color: var(--ocean);
 }
+.feature section {
+    width: 1440px;
+    height: 2592px;
+}
 .feature-title {
     color: var(--navyblue,);
     text-align: center;
@@ -132,27 +148,51 @@ a:active {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
+.feature-list {
+    display:inline-flex;
+}
+.feature-list-item {
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
 .feature-list-item-title {
-    color: var(--navyblue,);
+    color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
 }
 .feature-list-item-subtitle {
-    color: var(--light-slate);
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
-.services-title{
+.services section {
+    width: 1440px;
+    height: 2592px;
+}
+.services-title {
+    color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
 }
 .services-list-pictures {
-    display: inline;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .services-list-pictures-item {
-    display: inline-block;
+    display: inline-flex;
+
 }
 .section-ourteam {
     background-color: var(--cloud);
@@ -167,7 +207,6 @@ a:active {
     text-transform: capitalize;
 }
 .ourteam-list {
-
     display: inline;
 }
 .ourteam-list-item{
@@ -178,11 +217,17 @@ a:active {
     color: var(--navyblue);
     text-align: center;
     font-size: 20px;
+    font-weight: 500;
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
 }
 .ourteam-list-item-subtitle {
-    color: var(--light-slate);
+    color: var(--slate);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
 .filter-list {
     text-transform: capitalize;
@@ -190,7 +235,6 @@ a:active {
 }
 .filter-list-item{
     display: inline;
-
 }
 .filter-list-item button{
     background-color: var(--cornflower);
@@ -235,15 +279,26 @@ a:active {
 .demo-list-item-title {
     color: var(--navyblue);
     font-size: 20px;
+    font-weight: 500;
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
 }
 .demo-list-item-subtitle {
     color: var(--slate);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
 footer {
     background-color: var(--navyblue);
 }
 .footer-content {
-    color: var(--light-slate)
+    color: var(--cloud);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
